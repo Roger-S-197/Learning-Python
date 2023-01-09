@@ -1,7 +1,7 @@
 altura = float(input('Qual é a sua altura em cm? '))
 peso = float(input('Qual é o seu peso em kg? '))
 
-imc = float(peso / (altura ** 2))
+imc = float(peso / (altura/100)** 2)
 
 if imc < 18.5:
     print(f'Você está muito magro(a), seu imc é de {imc}')
